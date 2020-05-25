@@ -1,0 +1,201 @@
+
+/*Fuente de letra*/
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,800');
+
+                    /* Principal css*/
+*{
+    margin:0px;
+    padding:0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    color: #777;
+    width: 100%;
+    height: 100%
+    font-size: 15px;
+    line-height: 1.7;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+p {
+    letter-spacing: 0px;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration:none;
+    padding: 10px 25px;
+    border-radius: 0px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    background-color: #333;
+    transition: 0.3s;
+    -moz-transition: 0.3s;
+    -webkit-transition: 0.3s;
+}
+
+.btn:hover {
+    color: #fff;
+    background: #888;
+}
+
+.btn.btn-white {
+    color: #333;
+    background-color: #fff;
+}
+
+.btn.btn-white:hover {
+    color: #fff;
+    background: #333;
+}
+
+.big {
+    padding: 150px 0px;
+    border-bottom: 1px solid #ddd;
+}
+
+.title {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 400px;
+    margin-bottom: 60px;
+}
+
+.title h2{
+    margin-bottom: 35px;
+    line-height: 30px;
+    margin-top: 0;
+    position: relative;
+    text-align: center;
+}
+
+.title h2:before {
+    position: absolute;
+    content: '';
+    bottom: -20px;
+    width: 50px;
+    height: 1px;
+    background: #777;
+    z-index: 1;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.cont1 {
+    display: table;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    margin: 0;
+}
+.cont2 {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+                                /*Fondo css*/
+
+.fondo{
+    background-image: url(../imagenes/mapa.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.fondo:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+                                /*Tema principal*/
+.tema h1{
+    display: inline;
+    font-weight: 900;
+    font-size: 80px;
+    color: #fff;
+}
+
+                                /*Información*/
+section{
+    position: relative;
+    z-index: 10;
+}
+
+.container{
+    padding-left: 200px;
+}
+
+.info .text{
+    text-align: justify-all;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.info .image img{
+   width:  585px;
+   height: 400px;
+   margin: auto;
+   padding-right: 20px;
+   float: left;
+}
+
+.info .btn {
+    margin-top: 10px;
+}
+                        /* Medidas de prevención css */
+
+.prev .title {
+    margin-bottom: 30px;
+}
+
+.box{
+    display: inline-table;
+}
+
+.box p{
+    text-align: justify-all;
+    max-width: 250px;
+    margin-top: 30px;
+    padding-left: 50px;
+}
+
+.box h3 {
+    text-align: center;
+    margin-top: 30px;
+}
+                        /*Pie de pagina*/
+.foot {
+    margin-top: 60px;
+    background: #333;
+}
+
+.foot .datos{
+    margin-left: 40px;
+    text-align: justify;
+    color: #fff;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
